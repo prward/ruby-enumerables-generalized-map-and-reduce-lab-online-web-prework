@@ -6,3 +6,4 @@ def map(element1, &block)
 def reduce(element1, starting_point = 0, &block)
   element1.reduce(starting_point) { |sum, num| sum + num}
 end
+
