@@ -4,5 +4,5 @@ def map(element1, &block)
   end
 
 def reduce(element1, starting_point = 0, &block)
-  reduce(starting_point) { |sum, num| sum + num}
+  element1.reduce(starting_point) { |sum, num| sum + num}
 end
